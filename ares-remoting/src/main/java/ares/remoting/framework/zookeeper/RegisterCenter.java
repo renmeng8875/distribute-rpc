@@ -24,7 +24,7 @@ import java.util.Map;
 /**
  * 注册中心实现
  *
- * @author liyebing created on 17/2/12.
+ * @author renmeng created on 17/2/12.
  * @version $Id$
  */
 public class RegisterCenter implements IRegisterCenter4Invoker, IRegisterCenter4Provider, IRegisterCenter4Governance {

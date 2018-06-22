@@ -11,7 +11,7 @@ import java.util.concurrent.locks.ReentrantLock;
 /**
  * 软负载轮询算法实现
  *
- * @author liyebing created on 17/4/23.
+ * @author renmeng created on 17/4/23.
  * @version $Id$
  */
 public class PollingClusterStrategyImpl implements ClusterStrategy {

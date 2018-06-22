@@ -14,7 +14,7 @@ import java.util.Map;
 /**
  * 服务bean引入入口
  *
- * @author liyebing created on 16/10/3.
+ * @author renmeng created on 16/10/3.
  * @version $Id$
  */
 public class RevokerFactoryBean implements FactoryBean, InitializingBean {

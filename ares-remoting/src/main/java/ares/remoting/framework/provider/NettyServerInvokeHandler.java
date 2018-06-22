@@ -25,7 +25,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 处理服务端的逻辑
  *
- * @author liyebing created on 16/10/2.
+ * @author renmeng created on 16/10/2.
  * @version $Id$
  */
 @ChannelHandler.Sharable

@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * @author liyebing created on 16/10/5.
+ * @author renmeng created on 16/10/5.
  * @version $Id$
  */
 public class MainClient {
@@ -24,7 +24,7 @@ public class MainClient {
         //调用服务并打印结果
         for (int i = 0; i < count; i++) {
             try {
-                String result = helloService.sayHello("liyebing,i=" + i);
+                String result = helloService.sayHello("renmeng,i=" + i);
                 System.out.println(result);
             } catch (Exception e) {
                 logger.warn("--------", e);

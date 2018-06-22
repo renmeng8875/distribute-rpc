@@ -5,7 +5,7 @@ import ares.remoting.framework.model.ProviderService;
 import java.util.List;
 
 /**
- * @author liyebing created on 17/2/12.
+ * @author renmeng created on 17/2/12.
  * @version $Id$
  */
 public interface ClusterStrategy {

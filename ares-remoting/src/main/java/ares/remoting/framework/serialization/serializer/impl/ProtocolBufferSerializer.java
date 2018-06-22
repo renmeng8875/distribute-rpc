@@ -4,7 +4,7 @@ import ares.remoting.framework.serialization.serializer.ISerializer;
 import org.apache.commons.lang3.reflect.MethodUtils;
 
 /**
- * @author liyebing created on 17/1/25.
+ * @author renmeng created on 17/1/25.
  * @version $Id$
  */
 public class ProtocolBufferSerializer implements ISerializer {

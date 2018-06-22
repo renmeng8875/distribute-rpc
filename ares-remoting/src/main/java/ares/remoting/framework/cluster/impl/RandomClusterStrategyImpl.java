@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 软负载随机算法实现
  *
- * @author liyebing created on 17/2/12.
+ * @author renmeng created on 17/2/12.
  * @version $Id$
  */
 public class RandomClusterStrategyImpl implements ClusterStrategy {

@@ -8,7 +8,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
 /**
- * @author liyebing created on 17/3/31.
+ * @author renmeng created on 17/3/31.
  * @version $Id$
  */
 public class MarshallingSerializer implements ISerializer {

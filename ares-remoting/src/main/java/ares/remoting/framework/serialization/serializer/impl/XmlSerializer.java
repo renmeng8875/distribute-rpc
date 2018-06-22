@@ -5,7 +5,7 @@ import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.xml.DomDriver;
 
 /**
- * @author liyebing created on 17/1/21.
+ * @author renmeng created on 17/1/21.
  * @version $Id$
  */
 public class XmlSerializer implements ISerializer {

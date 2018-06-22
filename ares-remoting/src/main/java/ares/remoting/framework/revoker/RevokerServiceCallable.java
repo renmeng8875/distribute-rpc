@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Netty 请求发起线程
  *
- * @author liyebing created on 17/2/10.
+ * @author renmeng created on 17/2/10.
  * @version $Id$
  */
 public class RevokerServiceCallable implements Callable<AresResponse> {

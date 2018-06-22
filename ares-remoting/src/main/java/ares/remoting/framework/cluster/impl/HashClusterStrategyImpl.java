@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 软负载哈希算法实现
  *
- * @author liyebing created on 17/4/23.
+ * @author renmeng created on 17/4/23.
  * @version $Id$
  */
 public class HashClusterStrategyImpl implements ClusterStrategy {

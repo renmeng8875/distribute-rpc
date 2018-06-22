@@ -10,7 +10,7 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 
 /**
- * @author liyebing created on 17/1/26.
+ * @author renmeng created on 17/1/26.
  * @version $Id$
  */
 public class AvroSerializer implements ISerializer {

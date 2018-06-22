@@ -9,7 +9,7 @@ import io.netty.handler.codec.ByteToMessageDecoder;
 import java.util.List;
 
 /**
- * @author liyebing created on 17/1/19.
+ * @author renmeng created on 17/1/19.
  * @version $Id$
  */
 public class NettyDecoderHandler extends ByteToMessageDecoder {

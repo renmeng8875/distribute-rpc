@@ -10,7 +10,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author liyebing created on 17/2/1.
+ * @author renmeng created on 17/2/1.
  * @version $Id$
  */
 public class RevokerResponseHolder {

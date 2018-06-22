@@ -8,7 +8,7 @@ import java.io.InputStream;
 import java.util.Properties;
 
 /**
- * @author liyebing created on 17/2/2.
+ * @author renmeng created on 17/2/2.
  * @version $Id$
  */
 public class PropertyConfigeHelper {

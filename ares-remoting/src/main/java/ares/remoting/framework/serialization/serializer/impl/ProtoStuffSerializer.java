@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * @author liyebing created on 17/1/19.
+ * @author renmeng created on 17/1/19.
  * @version $Id$
  */
 public class ProtoStuffSerializer implements ISerializer {

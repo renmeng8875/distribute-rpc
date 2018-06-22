@@ -13,7 +13,7 @@ import com.fasterxml.jackson.databind.module.SimpleModule;
 import java.util.Date;
 
 /**
- * @author liyebing created on 17/1/21.
+ * @author renmeng created on 17/1/21.
  * @version $Id$
  */
 public class JSONSerializer implements ISerializer {

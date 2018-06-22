@@ -22,7 +22,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 消费端bean代理工厂
  *
- * @author liyebing created on 16/10/3.
+ * @author renmeng created on 16/10/3.
  * @version $Id$
  */
 public class RevokerProxyBeanFactory implements InvocationHandler {

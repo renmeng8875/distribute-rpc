@@ -27,7 +27,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * @author liyebing created on 17/2/8.
+ * @author renmeng created on 17/2/8.
  * @version $Id$
  */
 public class NettyChannelPoolFactory {

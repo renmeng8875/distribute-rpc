@@ -17,7 +17,7 @@ import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 
 /**
- * @author liyebing created on 17/2/11.
+ * @author renmeng created on 17/2/11.
  * @version $Id$
  */
 public class NettyServer {

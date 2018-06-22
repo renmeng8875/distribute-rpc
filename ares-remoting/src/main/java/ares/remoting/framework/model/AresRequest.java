@@ -3,7 +3,7 @@ package ares.remoting.framework.model;
 import java.io.Serializable;
 
 /**
- * @author liyebing created on 17/2/10.
+ * @author renmeng created on 17/2/10.
  * @version $Id$
  */
 public class AresRequest implements Serializable {

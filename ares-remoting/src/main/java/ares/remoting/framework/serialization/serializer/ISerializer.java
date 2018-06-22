@@ -1,7 +1,7 @@
 package ares.remoting.framework.serialization.serializer;
 
 /**
- * @author liyebing created on 17/4/23.
+ * @author renmeng created on 17/4/23.
  * @version $Id$
  */
 public interface ISerializer {

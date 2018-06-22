@@ -10,7 +10,7 @@ import org.springframework.beans.factory.xml.AbstractSingleBeanDefinitionParser;
 import org.w3c.dom.Element;
 
 /**
- * @author liyebing created on 17/2/12.
+ * @author renmeng created on 17/2/12.
  * @version $Id$
  */
 public class ProviderFactoryBeanDefinitionParser extends AbstractSingleBeanDefinitionParser {

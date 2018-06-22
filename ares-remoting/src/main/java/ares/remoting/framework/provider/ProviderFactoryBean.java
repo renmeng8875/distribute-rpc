@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * 服务Bean发布入口
  *
- * @author liyebing created on 16/10/3.
+ * @author renmeng created on 16/10/3.
  * @version $Id$
  */
 public class ProviderFactoryBean implements FactoryBean, InitializingBean {

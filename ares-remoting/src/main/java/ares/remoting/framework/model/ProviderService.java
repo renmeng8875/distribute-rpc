@@ -8,7 +8,7 @@ import java.lang.reflect.Method;
 /**
  * 服务注册中心的服务提供者注册信息
  *
- * @author liyebing created on 17/2/10.
+ * @author renmeng created on 17/2/10.
  * @version $Id$
  */
 public class ProviderService implements Serializable {

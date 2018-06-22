@@ -9,7 +9,7 @@ import java.util.Map;
 /**
  * 消费端注册中心接口
  *
- * @author liyebing created on 17/4/22.
+ * @author renmeng created on 17/4/22.
  * @version $Id$
  */
 public interface IRegisterCenter4Invoker {

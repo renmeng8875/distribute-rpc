@@ -3,7 +3,7 @@ package ares.remoting.framework.cluster.impl;
 import org.apache.commons.lang.StringUtils;
 
 /**
- * @author liyebing created on 17/4/23.
+ * @author renmeng created on 17/4/23.
  * @version $Id$
  */
 public enum ClusterStrategyEnum {

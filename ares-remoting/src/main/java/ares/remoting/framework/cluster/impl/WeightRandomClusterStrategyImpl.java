@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * 软负载加权随机算法实现
  *
- * @author liyebing created on 17/4/23.
+ * @author renmeng created on 17/4/23.
  * @version $Id$
  */
 public class WeightRandomClusterStrategyImpl implements ClusterStrategy {

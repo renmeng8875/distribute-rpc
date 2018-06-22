@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.lang.reflect.Method;
 
 /**
- * @author liyebing created on 17/2/11.
+ * @author renmeng created on 17/2/11.
  * @version $Id$
  */
 public class InvokerService implements Serializable {

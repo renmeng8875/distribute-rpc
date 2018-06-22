@@ -3,7 +3,7 @@ package ares.remoting.framework.serialization.common;
 import org.apache.commons.lang.StringUtils;
 
 /**
- * @author liyebing created on 17/2/11.
+ * @author renmeng created on 17/2/11.
  * @version $Id$
  */
 public enum SerializeType {
@@ -14,6 +14,9 @@ public enum SerializeType {
     ProtoStuffSerializer("ProtoStuffSerializer"),
     XmlSerializer("XmlSerializer"),
     MarshallingSerializer("MarshallingSerializer"),
+    ProtoPackSerializer("ProtoPackSerializer"),
+    KryoSerializer("KryoSerializer"),
+    MessagePackSerializer("MessagePackSerializer"),
 
     AvroSerializer("AvroSerializer"),
     ProtocolBufferSerializer("ProtocolBufferSerializer"),

@@ -5,7 +5,7 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 
 /**
- * @author liyebing created on 16/10/5.
+ * @author renmeng created on 16/10/5.
  * @version $Id$
  */
 public class NettyClientInvokeHandler extends SimpleChannelInboundHandler<AresResponse> {

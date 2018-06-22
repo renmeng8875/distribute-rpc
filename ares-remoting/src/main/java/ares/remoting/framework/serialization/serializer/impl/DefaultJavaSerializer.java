@@ -10,7 +10,7 @@ import java.io.ObjectOutputStream;
 /**
  * java默认序列化
  *
- * @author liyebing created on 17/1/21.
+ * @author renmeng created on 17/1/21.
  * @version $Id$
  */
 public class DefaultJavaSerializer implements ISerializer {

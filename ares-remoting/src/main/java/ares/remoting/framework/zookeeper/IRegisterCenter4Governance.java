@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 服务治理接口
  *
- * @author liyebing created on 17/4/26.
+ * @author renmeng created on 17/4/26.
  * @version $Id$
  */
 public interface IRegisterCenter4Governance {

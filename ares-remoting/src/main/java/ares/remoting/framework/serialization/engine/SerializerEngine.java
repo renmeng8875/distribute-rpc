@@ -9,7 +9,7 @@ import avro.shaded.com.google.common.collect.Maps;
 import java.util.Map;
 
 /**
- * @author liyebing created on 17/1/23.
+ * @author renmeng created on 17/1/23.
  * @version $Id$
  */
 public class SerializerEngine {
@@ -24,10 +24,16 @@ public class SerializerEngine {
         serializerMap.put(SerializeType.ProtoStuffSerializer, new ProtoStuffSerializer());
         serializerMap.put(SerializeType.MarshallingSerializer, new MarshallingSerializer());
 
-        //以下三类不能使用普通的java bean
-        serializerMap.put(SerializeType.AvroSerializer, new AvroSerializer());
-        serializerMap.put(SerializeType.ThriftSerializer, new ThriftSerializer());
-        serializerMap.put(SerializeType.ProtocolBufferSerializer, new ProtocolBufferSerializer());
+        serializerMap.put(SerializeType.ProtoPackSerializer, new ProtoPackSerializer());
+        serializerMap.put(SerializeType.KryoSerializer, new KryoSerializer());
+        serializerMap.put(SerializeType.MessagePackSerializer, new MessagePackSerializer());
+
+
+
+        //以下三类不能使用普通的java bean,需要事先双方定好协议文件然后用程序生成代码
+        //serializerMap.put(SerializeType.AvroSerializer, new AvroSerializer());
+        //serializerMap.put(SerializeType.ThriftSerializer, new ThriftSerializer());
+        //serializerMap.put(SerializeType.ProtocolBufferSerializer, new ProtocolBufferSerializer());
     }
 
 
