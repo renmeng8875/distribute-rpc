@@ -3,8 +3,10 @@ package ares.remoting.test;
 import ares.remoting.framework.serialization.common.SerializeType;
 import ares.remoting.framework.serialization.engine.SerializerEngine;
 import ares.remoting.framework.serialization.serializer.ISerializer;
-import ares.remoting.test.bean.InnerBean;
+import ares.remoting.test.bean.Person;
 import ares.remoting.test.bean.TestBean;
+import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.commons.lang3.RandomUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,10 +20,11 @@ import java.util.Map;
 public class SerializerPerformanceTest {
 
     public static void main(String[] args){
+        TestBean inputBean = buildTestParam();
         Map<SerializeType, ISerializer> serializerMap = SerializerEngine.serializerMap;
         for(SerializeType serializeType:serializerMap.keySet()){
             ISerializer serializer = serializerMap.get(serializeType);
-            byte[] bytes = serializer.serialize(buildTestParam());
+            byte[] bytes = serializer.serialize(inputBean);
             System.err.println(serializeType+":"+bytes.length);
         }
 
@@ -36,20 +39,20 @@ public class SerializerPerformanceTest {
         inputBean.setLongNum(4);
         inputBean.setVarBin("It is fun!good luck!中英文混杂");
 
-        InnerBean innerBean = new InnerBean();
-        innerBean.setAge(18);
-        innerBean.setName("babyTree");
-        innerBean.setNum(30000);
+        //inputBean.setSelf(inputBean);
 
 
-
-        List<InnerBean> innerBeanList = new ArrayList<InnerBean>();
+        List<Person> innerBeanList = new ArrayList<Person>();
+        Person innerBean = new Person();
+        innerBean.setAge(100);
+        innerBean.setName(RandomStringUtils.randomAlphabetic(10));
+        innerBean.setNum(RandomUtils.nextInt(100,100));
         innerBeanList.add(innerBean);
-
-
         inputBean.setBeanList(innerBeanList);
         return inputBean;
     }
+
+
 
 
 }

@@ -17,7 +17,7 @@ public class ProtoPackSerializer implements ISerializer {
         try {
             ObjectMarshal marshal = new ObjectMarshal(obj);
             marshal.marshal(pack);
-            b = pack.getBuffer().array();
+            b = pack.getBytes();
         } catch (Exception e) {
             e.printStackTrace();
         }

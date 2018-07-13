@@ -1,5 +1,9 @@
 package ares.remoting.test;
 
+import ares.remoting.test.bean.Person;
+import ares.remoting.test.bean.TestBean;
+import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -19,13 +23,17 @@ public class MainClient {
         //获取远程服务
         final HelloService helloService = (HelloService) context.getBean("remoteHelloService");
 
-        long count = 1000000000000000000L;
+        long count = 10000000000L;
 
         //调用服务并打印结果
         for (int i = 0; i < count; i++) {
             try {
-                String result = helloService.sayHello("renmeng,i=" + i);
-                System.out.println(result);
+                Person p = new Person();
+                p.setAge(18);
+                p.setNum(count);
+                p.setName(RandomStringUtils.randomAlphanumeric(10));
+                String result = helloService.sayHello(p);
+                System.err.println(result);
             } catch (Exception e) {
                 logger.warn("--------", e);
             }

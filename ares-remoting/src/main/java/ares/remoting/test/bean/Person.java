@@ -6,8 +6,8 @@ import org.msgpack.annotation.Message;
 import java.io.Serializable;
 
 @Message
-public class InnerBean implements Serializable{
-    public InnerBean(){
+public class Person implements Serializable{
+    public Person(){
 
     }
     private String name;
@@ -38,5 +38,14 @@ public class InnerBean implements Serializable{
 
     public void setNum(long num) {
         this.num = num;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", num=" + num +
+                '}';
     }
 }

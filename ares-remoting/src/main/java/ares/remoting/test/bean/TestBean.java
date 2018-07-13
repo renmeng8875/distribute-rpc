@@ -10,6 +10,17 @@ public class TestBean  implements Serializable {
     public TestBean(){
 
     }
+
+    public TestBean getSelf() {
+        return self;
+    }
+
+    public void setSelf(TestBean self) {
+        this.self = self;
+    }
+
+    private TestBean self;
+
     private byte byteNum;
 
     private short shortNum;
@@ -20,7 +31,7 @@ public class TestBean  implements Serializable {
 
     private String varBin;
 
-    private List<InnerBean> beanList;
+    private List<Person> beanList;
 
 
     public byte getByteNum() {
@@ -63,11 +74,11 @@ public class TestBean  implements Serializable {
         this.varBin = varBin;
     }
 
-    public List<InnerBean> getBeanList() {
+    public List<Person> getBeanList() {
         return beanList;
     }
 
-    public void setBeanList(List<InnerBean> beanList) {
+    public void setBeanList(List<Person> beanList) {
         this.beanList = beanList;
     }
 }
